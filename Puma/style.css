@@ -31,14 +31,14 @@ section nav{
 }
 section nav .logo{
     font-size: 35px;
-    color: #c72092;
+    color:  #00cc44;
     margin: 5px 0;
     cursor: pointer;
     position: relative;
     left: -4%;
 }
 section nav .logo span{
-    color: #6c14d0;
+    color: #009933;
     text-decoration: underline;
 }
 section nav ul{
@@ -54,7 +54,7 @@ section nav ul li a{
     transition: 0.2s;
 }
 section nav ul li a:hover{
-    color:#c72092;
+    color: #00e600;
 }
 section nav .icon i{
     margin: 0 4px;
@@ -63,7 +63,7 @@ section nav .icon i{
     transition: 0.3s;
 }
 section nav .icon i:hover{
-    color: #c72092;
+    color: #00e600;
 }
 section .main .main_content{
     display: flex;
@@ -74,7 +74,7 @@ section .main .main_content .main_text h1{
     font-size: 90px;
     line-height: 70px;
     font-family: pyxidium quick;
-    background: linear-gradient(to right, #c72092,#6c14d0);
+    background: linear-gradient(to right, #00e600,#009933);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -83,7 +83,7 @@ section .main .main_content .main_text h1{
 }
 section .main .main_content .main_text h1 span{
     font-size: 70px;
-    background: linear-gradient(to right, #c72092,#6c14d0);
+    background: linear-gradient(to right, #00e600,#009933);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -96,7 +96,7 @@ section .main .main_content .main_text p{
     left:5%;
 }
 section .main .main_content .main_image img{
-    width: 620px;
+    width: 520px;
     mix-blend-mode: normal;
     border-radius: 10%;
     position: relative;
@@ -116,14 +116,14 @@ section .main .social_icon i{
     transition: 0.3s;
 }
 section .main .social_icon i:hover{
-    color: #c72092;
+    color: #00cc00;
 }
 section .main .button{
     position: absolute;
     left: 6%;
     padding: 10px 20px;
     border-radius: 30px;
-    background: linear-gradient(to right,#c72092,#6c14d0);
+    background: linear-gradient(to left,#00e600,#009933);
 }
 section .main .button a{
     color: white;
@@ -153,7 +153,7 @@ section .main .button:hover i{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    background: linear-gradient(to right, #c72092,#6c14d0);
+    background: linear-gradient(to right, #00e600,#009933);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -167,4 +167,9 @@ section .main .button:hover i{
 }
 .products .box .card .image img{
     width: 310px;
+}
+.products h2{
+    background: linear-gradient(to left, #00e600,#009933);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
